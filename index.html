@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro Produtos</title>
+</head>
+<body>
+    <div class="container">
+        <form class="row g-3">
+            <h2>Consulta de produtos</h2>
+
+            <div class="col-md-1">
+               <label for="id" class="form-label">ID</label>
+               <input type="string" class="form-control"  id="id">              
+            </div>
+
+            <div class="col-md-1">
+               <label for="codIntern" class="form-label">INTERNO</label>
+               <input type="string" class="form-control" id="codIntern">              
+            </div>
+
+            <div class="col-md-4">
+              <label for="descricao" class="form-label">DESCRIÇÃO</label>
+              <input type="string" class="form-control" id="descricao">              
+            </div>
+
+            <div class="col-md-2">
+              <label for="ean" class="form-label">CÓD. BARRAS</label>
+              <input type="string" class="form-control" id="ean">
+            </div>
+
+            <div class="col-2">
+              <label for="ncm" class="form-label">NCM</label>
+              <input type="text" class="form-control" id="ncm">
+            </div>
+
+            <div class="col-2">
+              <label for="cest" class="form-label">CEST</label>
+              <input type="text" class="form-control" id="cest">
+            </div>
+
+            <div class="col-md-2">
+              <label for="cfopCompra" class="form-label">CFOP COMPRA</label>
+              <input type="text" class="form-control" id="cfopCompra">
+            </div>
+
+            <div class="col-md-2">
+              <label for="cfopVenda" class="form-label">CFOP VENDA</label>
+              <input type="text" class="form-control" id="cfopVenda">
+            </div>
+
+            <div class="col-md-2">
+              <label for="cfopCompraFora" class="form-label">CFOP COMP. FORA</label>
+              <input type="text" class="form-control" id="cfopCompraFora">
+            </div>
+
+            <div class="col-md-2">
+               <label for="cfopVendaFora" class="form-label">CFOP VEN. FORA</label>
+               <input type="text" class="form-control" id="cfopVendaFora">
+            </div>
+
+            <div class="col-md-1">
+               <label for="modBC" class="form-label">MODBC</label>
+               <input type="number" class="form-control" id="modBC">
+             </div>
+
+             <div class="col-md-1">
+               <label for="modBCST" class="form-label">MODBCST</label>
+               <input type="number" class="form-control" id="modBCST">
+            </div>
+
+            <div class="col-md-1">
+               <label for="csosn" class="form-label">CSOSN</label>
+               <input type="string" class="form-control" id="csosn">
+            </div>
+
+            <div class="col-md-1">
+               <label for="icmsCST" class="form-label">CST ICMS</label>
+               <input type="string" class="form-control" id="icmsCST">
+            </div>
+            
+            <div class="col-md-1">
+               <label for="pIcms" class="form-label">PICMS</label>
+               <input type="number" class="form-control" id="pIcms">
+            </div>
+
+            <div class="col-md-1">
+               <label for="pIcmsSt" class="form-label">PICMSST</label>
+               <input type="number" class="form-control" id="pIcmsSt">
+            </div>
+
+            <div class="col-md-1">
+               <label for="pIcmsPdv" class="form-label">PICMSPDV</label>
+               <input type="number" class="form-control" id="pIcmsPdv">
+            </div>
+
+            <div class="col-md-1">
+               <label for="pRedBc" class="form-label">PREDBC</label>
+               <input type="number" class="form-control" id="pRedBc">
+            </div>
+
+            <div class="col-md-1">
+               <label for="pRedBCST" class="form-label">PREDBCST</label>
+               <input type="number" class="form-control" id="pRedBCST">
+            </div>
+
+            <div class="col-md-1">
+               <label for="pMVAST" class="form-label">PMVAST</label>
+               <input type="number" class="form-control" id="pMVAST">
+            </div>
+
+            <div class="col-md-1">
+               <label for="vPautaST" class="form-label">VPAUTAST</label>
+               <input type="number" class="form-control" id="vPautaST">
+            </div>
+
+            <div class="col-md-2">
+               <label for="cstIpiEnt" class="form-label">CST IPI ENT</label>
+               <input type="string" class="form-control" id="cstIpiEnt">
+            </div>
+
+            <div class="col-md-3">
+               <label for="cstIpiSai" class="form-label">CST IPI SAI</label>
+               <input type="string" class="form-control" id="cstIpiSai">
+            </div>
+
+            <div class="col-md-3">
+               <label for="pIpiEnt" class="form-label">PINTENT</label>
+               <input type="number" class="form-control" id="pIpiEnt">
+            </div>
+
+            <div class="col-md-2">
+               <label for="pIpiSai" class="form-label">PIPISAI</label>
+               <input type="number" class="form-control" id="pIpiSai">
+            </div>
+
+            <div class="col-md-1">
+               <label for="pisCofEnt" class="form-label">PISCOFENT</label>
+               <input type="string" class="form-control" id="pisCofEnt">
+            </div>
+
+            <div class="col-md-1">
+               <label for="pisCofSai" class="form-label">PISCOFSAI</label>
+               <input type="string" class="form-control" id="pisCofSai">
+            </div>
+
+            <div class="col-md-1">
+               <label for="natIsen" class="form-label">NATISEN</label>
+               <input type="string" class="form-control" id="natIsen">
+            </div>
+
+            <div class="col-md-2">
+               <label for="pFCP" class="form-label">PFCP</label>
+               <input type="number" class="form-control" id="pFCP">
+            </div>
+
+            <div class="col-md-1">
+               <label for="cBenef" class="form-label">CBENEF</label>
+               <input type="string" class="form-control" id="cBenef">
+            </div>
+
+            
+            <div class="col-md-1">
+               <label for="pDifer" class="form-label">PDIFER</label>
+               <input type="number" class="form-control" id="pDifer">
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="consultar btn btn-primary ">CONSULTA</button>
+            </div>
+          </form>
+    </div>
+  
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

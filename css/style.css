@@ -1,0 +1,31 @@
+
+body {
+    background: #3b3737;
+    height: 35vw;
+    
+}
+
+.container {
+    text-align: center;
+    margin-top: 7rem;
+    border: 2px solid white;
+    padding: auto;
+    border-radius: 10px;
+    
+}
+
+h2 {
+    padding-top: 2.5rem;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.consultar{
+    margin-bottom: 3rem;
+}
+
+
+
